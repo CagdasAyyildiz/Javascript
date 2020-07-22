@@ -25,7 +25,5 @@ doSomething
       reject(response-1)
   })
 }).then(response => {
-  let text = document.createElement("p")
-  text.textContent = response
-  window.onload = () => document.body.appendChild(text)
+  console.log(response)
 }) // prints 2
