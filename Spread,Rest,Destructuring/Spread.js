@@ -32,3 +32,6 @@ console.log({...nestedData.firstNest.secondNest})
 
 //prints the copied array
 console.log([...arr])
+
+//Prints all elements seperately
+console.log(...arr)
